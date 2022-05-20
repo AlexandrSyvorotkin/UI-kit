@@ -4,5 +4,6 @@
     background-color: #27282c;
     display: flex;
     justify-content: center;
+    gap: 30px;
     padding: 40px;
 }
