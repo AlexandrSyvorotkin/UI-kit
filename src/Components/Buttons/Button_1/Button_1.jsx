@@ -1,9 +1,15 @@
 import React from 'react';
-import styles from './Button_1.module.css'
+import './Button_1.css'
 
-const Button_1 = ({children}) => {
+const Button_1 = ({children, green, red, blue}) => {
+
+    let classes = 'button'
+    if (green) classes += ' button-green'
+    if (blue) classes += ' button-blue'
+    if (red) classes += ' button-red'
+
     return (
-        <a className={styles.button}>
+        <a className={classes}>
                 <span>
                     {children}
                 </span>

@@ -13,14 +13,27 @@
 }
 
 .button:hover {
-    background: #1e8bff;
-    /*background: #6eff3e;*/
-    /*background: #ff1867;*/
-
-    color: #1e8bff;
     letter-spacing: 0.25em;
-    box-shadow: 0 0 35px #1e8bff;
 }
+
+.button-blue:hover {
+    background: #1e8bff;
+    box-shadow: 0 0 35px #1e8bff;
+    color: #1e8bff;
+}
+
+.button-green:hover {
+    background: #6eff3e;
+    box-shadow: 0 0 35px #6eff3e;
+    color: #6eff3e;
+}
+
+.button-red:hover {
+    background: #ff1867;
+    box-shadow: 0 0 35px #ff1867;
+    color: #ff1867;
+}
+
 
 .button:before {
     content: '';
